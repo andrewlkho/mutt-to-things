@@ -1,7 +1,7 @@
 `mutt-to-things.py` is a short python script to create 
 a [Things](https://culturedcode.com/things/) task from an e-mail.  As the name 
 suggests, the primary use case is to offload e-mails from 
-[http://mutt.org/](mutt) into Things, although it accepts any RFC 5322-compliant 
+[mutt](http://mutt.org/) into Things, although it accepts any RFC 5322-compliant 
 message on STDIN that python's 
 [email.parser](https://docs.python.org/3/library/email.parser.html) module can 
 handle.  It is the Things equivalent of 
